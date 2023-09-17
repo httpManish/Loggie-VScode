@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./font/montserrat/Montserrat-Thin.otf);
+}
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(./font/montserrat/Montserrat-Bold.ttf);
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1920px;
+    border: 1px solid rgb(118, 186, 207);
+}
+
+#mobilenav {
+    display: none;
+}
+
+.mainHeader {
+    background-color: #21243d;
+}
+
+.mainHeader {
+    background-image: url(./img/HERO-BANNER-Mobile-.jpg);
+}
+
+.header {
+    display: none;
+}
+
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Montserrat;
+    padding: 0 25px;
+    font-weight: 600;
+}
+
+.header ul li:last-child {
+    margin-right: 35px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.search img {
+    max-width: 80%;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    color: #fff
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search a {
+    padding: 8px 25px;
+    color: #fff;
+    border: 1px solid #ff9a29;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.bars .fa-bars {
+    color: #fff;
+}
+
+.mobile_header ul {
+    padding: 0 0 10px 0;
+}
+
+.mobile_header ul li {
+    list-style-type: none;
+}
+
+.mobile_header ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.mobile_header ul li:hover {
+    background-color: #213d29;
+}
+
+
+/* logistic service */
+.main-logistic-service {
+    text-align: center;
+}
+
+.header-description-paragragh {
+    margin: 30px 0px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.header-description h1 {
+    font-weight: 700;
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.link {
+    font-size: 18px;
+    margin: 45px 0px;
+}
+
+.learn-now {
+    margin: 20px 0px;
+}
+
+.link button {
+    background-color: #ff9a29;
+    padding: 15px 25px;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+
+.link button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.learn-now {
+    color: #fff;
+}
+
+
+/* our service  */
+
+/* .main-our-service {
+    border: 2px solid red;
+} */
+.our-service {
+    margin-bottom: 80px;
+}
+
+.main-our-service {
+    text-align: center;
+}
+
+.our-service-icons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.our-service-icons img {
+    padding: 30px 0px;
+
+}
+
+.our-service-icons h4 {
+    padding: 20px 0px;
+}
+
+
+.our-service-description {
+    margin: 144px 0px 48px 0px;
+}
+
+.our-service-description h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.our-service-description img {
+    padding: 26px 0px 30px 0px;
+}
+
+.our-service-description p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+/* quality-work-card */
+.main-quality-work {
+    margin-bottom: 140px;
+}
+
+.quality-work-description {
+    margin: 144px 0px 48px 0px;
+    text-align: center;
+}
+
+.quality-work-description h1 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quality-work-description img {
+    padding: 26px 0px 30px 0px;
+}
+
+.quality-work-description p {
+    font-weight: 500;
+    padding: 15px 0px;
+    font-size: 13px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.quality-work-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.quality-work-card img {
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+}
+
+.quality-work-card h4 {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0px 0px 30px 0px;
+}
+
+
+.quality-work-card p {
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.quality-work-card h4 {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.card1-img,
+.card2-img,
+.card3-img {
+    width: 100%;
+}
+
+/* working with */
+
+.main-work {
+    position: relative;
+}
+
+.bgimg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slider-img {
+    width: 100%;
+}
+
+.textt {
+    /* position: absolute; */
+    bottom: 12px;
+    left: 14px;
+    /* width: 738px; */
+    /* color: #fff; */
+}
+
+.textt p {
+    padding: 17px 0px 50px 0px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.title1 {
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* about loggie */
+
+.main-about-loggie h1 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-about-loggie {
+    text-align: center;
+}
+
+.about-main {
+    text-align: center;
+}
+
+.about-paragraph2 {
+    padding: 40px 0px;
+}
+
+
+.about-content p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.about-content img {
+    padding: 20px 0px;
+}
+
+.about-imgs img {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.about-content a {
+    color: #000;
+}
+
+/* newsletter */
+
+.newsletter-main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-newsletter {
+    margin: 0px 0px 134px 0px;
+}
+
+.newsletter input {
+    height: 40px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    border: 1px solid #ff9a29;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    background-color: #ff9a29;
+    color: #fff;
+    padding: 15px 50px;
+    margin: 10px 0px;
+    border: 1px solid #ff9a29;
+    border-radius: 8px;
+}
+
+/* footer */
+
+footer {
+    background-color: #f8f7f7;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.footer-description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.footer-description h4 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* footer navigation */
+.footer-navigation-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.footer-logo {
+    display: flex;
+    /* width: 30%; */
+    text-align: center;
+}
+
+.footer-logo a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.footer-navbar ul li {
+    list-style: none;
+    color: #000;
+    list-style: none;
+}
+
+.footer-navbar ul a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icon a {
+    padding: 10px;
+}
+
+
+/* media screen  */
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding: 0 55px;
+    }
+
+    .header {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+
+    .mobile_header {
+        display: none;
+    }
+
+    .mainHeader {
+        background-image: url(./img/HERO-BANNER.jpg);
+    }
+
+    /* link */
+    .link {
+        display: flex;
+        margin: 35px;
+        font-size: 18px
+    }
+
+    .Get-link {
+        color: #ffffff;
+        background-color: #ff9a29;
+        padding: 15px 25px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+}
+
+/* 358px display mob */
+/* 313px container */
