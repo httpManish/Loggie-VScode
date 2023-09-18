@@ -303,7 +303,13 @@
 
 .slider-img-mobile {
     display: block;
+    width: 100%;
 }
+
+.slider-img-mobile img {
+    width: 100%;
+}
+
 
 .textt {
     position: absolute;
@@ -316,9 +322,6 @@
     font-size: 17px;
     font-weight: 400;
 }
-
-
-
 
 .textt p {
     padding: 17px 0px 50px 0px;
@@ -525,6 +528,7 @@ footer p {
 
 
 /* media screen  */
+
 /* 766px display */
 @media only screen and (min-width: 768px) {
     .container {
